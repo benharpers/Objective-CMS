@@ -1,0 +1,9 @@
+AddHandler php5-script .php
+
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-s
+RewriteRule ^/admin/(.*)    /admin/index.php/$1  [P,L]
+
+RewriteCond %{REQUEST_FILENAME} !-s
+RewriteRule (.*)    /index.php/$1  [P,L]

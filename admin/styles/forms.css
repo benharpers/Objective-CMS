@@ -1,0 +1,492 @@
+form,
+fieldset
+{
+	display: block;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+div.field
+{
+	position: relative;
+	background: #a0b7dd url('../images/inside_box_tr.png') no-repeat top right;
+	margin: 1.25em 10px 10px 0;
+	padding: 0;
+	float: left;
+	width: auto;
+	min-width: 200px;
+	overflow: visible;
+	max-width: 100%;
+}
+
+#popup_editor div.field
+{
+	min-width: 186px;
+}
+
+#popup_editor div.notitle,
+div.notitle
+{
+	margin-top: 0.15em;
+	min-width: 0 !important;
+}
+
+div.field div.title
+{
+	background: #a0b7dd url('../images/inside_box_tl.png') no-repeat top left;
+	padding: 0;
+	margin: -1.1em 0.5em 0 0;
+	float: left;
+	position: absolute;
+	max-height: 1.32em;
+	text-transform: uppercase;
+	color: #ffffff;
+	overflow: hidden;
+}
+
+div.field.notitle:before
+{
+	content: url('../images/inside_box_tl.png');
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+div.field div.title label
+{
+	background: url('../images/inside_box_tr.png') no-repeat top right;
+	padding: 0.3em 0.5em;
+	height: 1.15em;
+	line-height: 1.0em;
+	max-height: 1.15em;
+	display: block;
+	width: auto;
+}
+
+div.field p
+{
+	padding: 0 0 5px 0;
+	margin: 0;
+	color: #ffffff;
+}
+
+.container .contents .page div.field div.content
+{
+	background: url('../images/inside_box_br.png') no-repeat bottom right;
+	padding: 6px;
+	margin: 0 0 -6px 0;
+	display: block;
+	width: auto;
+	max-width: 680px;
+	display: block;
+	white-space: nowrap;
+	position: relative;
+}
+
+.container .contents .page div.notitle div.content
+{
+	padding-right: 16px;
+}
+
+div.field:after
+{
+	content: url('../images/inside_box_bl.png');
+	width: 6px;
+	height: 6px;
+	position: relative;
+	float: left;
+}
+
+input[type=file],
+input[type=text],
+select
+{
+	border: 0.1em inset #a0a0a0;
+	vertical-align: top;
+	width: 197px;
+	max-width: 100%;
+	margin: 0;
+	font-size: x-small;
+}
+
+input[type=file],
+input[type=text]
+{
+	cursor: text;
+	height: 1.4em;
+	padding: 0 0.2em;
+}
+
+select
+{
+	height: 1.6em;
+	padding: 0;
+}
+
+select option
+{
+	line-height: 1.4em;
+	height: 1.4em;
+	padding: 0.1em 0.2em;
+	border: none;
+}
+
+input[type=file]
+{
+	color: #ffffff;
+	border-color: transparent;
+	cursor: default;
+	height: 2.0em;
+	line-height: 1.0em;
+	margin: -0.15em 0;
+	font-size: 8px;
+}
+
+input[type=checkbox],
+input[type=radio]
+{
+	font-size: x-small;
+	border: 0.1em inset #a0a0a0;
+	width: 1.2em;
+	height: 1.2em;
+	margin: 0 0.5em 0.4em 0;
+	padding: 0;
+	cursor: default;
+	vertical-align: middle;
+}
+
+div.field label.checkbox
+{
+	max-height: 1.2em;
+	height: 1.2em;
+	line-height: 1.2em;
+}
+
+div.switch_handler
+{
+	margin: -0.25em 0;
+	height: 1.9em;
+}
+
+div.field div.content div.option
+{
+	color: #ffffff;
+	font-size: x-small;
+	height: 1.6em;
+	line-height: 1.6em;
+}
+
+input[type=submit]
+{
+	display: none;
+	visibility: hidden;
+}
+
+textarea
+{
+	width: 910px;
+	height: 10em;
+	max-height: 20em;
+	margin: 0;
+	padding: 0;
+	border: 0px solid transparent;
+	font-size: x-small;
+	overflow: auto; 
+	overflow:-moz-scrollbars-vertical;
+}
+
+#popup_editor textarea
+{
+	width: 370px;
+	height: 47px;
+	max-width: 370px;
+	max-height: 47px;
+	overflow: auto;
+}
+
+#popup_editor form.main fieldset.contents div.page
+{
+	position: relative;
+	width: 400px;
+	height: 272px;
+}
+
+#popup_editor div.buttons
+{
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
+
+div.field div.content textarea
+{
+	width: 653px;
+}
+
+textarea.styled_handler
+{
+	height: 20em;
+	max-height: 30em;
+	visibility: hidden;
+}
+
+#logout
+{
+	position: absolute;
+	display: none;
+	top: -999px;
+	height: 1px;
+	width: 1px;
+}
+
+.sidebar .container .contents .page div.field,
+.sidebar .container .contents .page div.field div.content
+{
+	max-width: 205px;
+}
+
+.sidebar .container .contents .page div.field input[type=file],
+.sidebar .container .contents .page div.field input[type=text],
+.sidebar .container .contents .page div.field textarea
+{
+	width: 182px;
+}
+
+.sidebar .container .contents .page div.field select
+{
+	width: 100%;
+}
+
+.large .contents .page div.field,
+.large .contents .page div.field div.content
+{
+	max-width: 910px;
+}
+
+.large .contents .page div.field textarea
+{
+	width: 888px;
+	max-width: 888px;
+}
+
+div.date_handler
+{
+	margin: 0;
+	width: 197px;
+}
+
+div.date_handler select
+{
+	margin: 0 2px 0 0;
+}
+
+div.field div.content select.day
+{
+	width: 50px;
+}
+
+div.field div.content select.month
+{
+	width: 85px;
+}
+
+div.field div.content select.year
+{
+	width: 60px;
+	margin: 0;
+}
+
+div.address_handler
+{
+	width: 197px;
+	padding: 3px;
+	margin: 0;
+}
+
+div.address_handler input
+{
+	min-width: 0 !important;
+	margin: 0 2px 2px 0;
+	white-space: nowrap;
+}
+
+div.address_handler input.company, div.address_handler input.street
+{
+	width: 192px;
+	margin-right: 0px;
+}
+
+div.address_handler input.first_name
+{
+	width: 92px;
+}
+
+div.address_handler input.last_name
+{
+	width: 92px;
+	margin-right: 0;
+}
+
+div.address_handler input.city, div.address_handler input.state, div.address_handler input.zip
+{
+	margin-bottom: 0;
+}
+
+div.address_handler input.city
+{
+	width: 104px;
+}
+
+div.address_handler input.state
+{
+	width: 20px;
+}
+
+div.address_handler input.zip
+{
+	width: 52px;
+	margin-right: 0;
+}
+
+div.search_handler_list
+{
+	position: absolute;
+	top: 1.6em;
+	z-index: 1000;
+	max-height: 8.0em;
+	overflow: auto;
+	padding: 6px 0 0 0;
+	margin: -0.2em 0 0 0;
+}
+
+div.search_handler_list ul
+{
+	display: block;
+	border-bottom: 0.1em inset #a0a0a0;
+	background-color: #a0b7dd;
+	padding: 0;
+	margin: 0;
+}
+
+div.search_handler_list ul li
+{
+	color: #ffffff;
+	white-space: nowrap;
+	overflow: hidden;
+	display: block;
+	max-height: 1.6em;
+	line-height: 1.6em;
+	padding: 0 0.2em;
+	margin: 0;
+	border-left: 0.1em inset #a0a0a0;
+	border-right: 0.1em inset #a0a0a0;
+	width: 197px;
+}
+
+div.search_handler_list ul li.selected
+{
+	background-color: #808fa1;
+	color: #ffffff;
+}
+
+.icon.upload.file_handler
+{
+	background-repeat: no-repeat;
+	background-position: center left;
+	height: 15px;
+	line-height: 15px;
+	margin: 4px 0 -2px 4px;
+	padding: 0 0 0 18px;
+	color: #ffffff;
+	white-space: nowrap;
+}
+
+.file_handler_list tr .preview img
+{
+	width: 16px;
+	height: 16px;
+}
+
+div.field div.content .file_handler_list tr th,
+div.field div.content .file_handler_list tr td.desc,
+div.field div.content .file_handler_list tr td.type
+{
+	display: none;
+}
+
+div.field div.content .color_field
+{
+	height: 1.6em;
+	line-height: 1.6em;
+	padding: 0;
+	margin: 0;
+}
+
+div.field div.content .color_field .color_preview
+{
+	padding: 0 0.5em;
+	line-height: 1em;
+	height: 1em;
+	width: 1px;
+	border: 0.1em solid #404040;
+	margin: 0 0.5em 0 0;
+	background-color: #ffffff;
+	overflow: hidden;
+}
+
+div.field div.content select.options_handler
+{
+	width: 100%;
+}
+
+#popup_editor input[type=file],
+#popup_editor input[type=text]
+{
+	width: 167px;
+}
+
+/*
+.file_handler_list
+{
+	width: 100%;
+}
+
+.file_handler_list .file_name
+{
+	width: 200px;
+}
+
+.file_handler_list .file_type
+{
+	width: 150px;
+}
+
+.file_handler_list .sort
+{
+	width: 24px;
+}
+
+.file_handler_list .remove
+{
+	width: 16px;
+}
+
+.file_handler_list .file_desc
+{
+	width: auto;
+}
+
+.listing .contents .table .file_handler_list
+{
+	background-color: #a0b7dd;
+}
+
+.listing .contents .table .file_handler_list tr .icon:active img
+{
+	position: absolute;
+	visibility: visible;
+	width: auto;
+	height: auto;
+}
+*/

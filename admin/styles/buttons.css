@@ -1,0 +1,80 @@
+.buttons
+{
+	position: relative;
+	display: block;
+	width: 100%;
+	clear: both;
+	font-size: x-small;
+	max-height: 1.75em;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+#popup_editor .buttons
+{
+	max-width: 392px;
+}
+
+.button
+{
+	position: relative;
+	display: inline;
+	float: left;
+	background: #a0b7dd url('../images/inside_box_br.png') no-repeat bottom right;
+	margin: 0 0.65em 0 0;
+	padding: 0;
+}
+
+.buttons .right
+{
+	float: right;
+	margin: 0 0 0 0.75em;
+}
+
+.button a
+{
+	background: url('../images/inside_box_tr.png') no-repeat top right;
+	position: relative;
+	display: block;
+	padding: 0 0.75em;
+	margin: -6px 0 -6px 0;
+	line-height: 1.75em;
+	height: 1.75em;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.button:before
+{
+	position: relative;
+	content: url('../images/inside_box_tl.png');
+	width: 6px;
+	height: 6px;
+}
+
+.button:after
+{
+	content: url('../images/inside_box_bl.png');
+	width: 6px;
+	height: 6px;
+}
+
+.button:hover
+{
+	cursor: pointer;
+}
+
+.button.default
+{
+	background-color: #6d83ad;
+}
+
+.button.caution
+{
+	background-color: #a04030;
+}
+
+.button.info
+{
+	background-color: #3040a0;
+}

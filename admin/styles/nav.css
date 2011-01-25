@@ -1,0 +1,163 @@
+.body .navigation
+{
+	position: absolute;
+	top: 0px;
+	left: 45px;
+	width: 885px;
+	background-color: #000000 ! important;
+}
+
+.body .navigation div.page
+{
+	padding: 0;
+}
+
+.body .navigation #nav
+{
+	display: block;
+	float: left;
+	width: 873px;
+	padding: 0 6px 0 6px;
+	margin: -6px 0 -6px 0;
+	height: 2em;
+	max-height: 2em;
+	white-space: nowrap;
+}
+
+.body .navigation #nav ul
+{
+	display: block;
+	position: absolute;
+	margin: 0;
+	padding: 0 0 3px 0;
+	left: 0px;
+	width: 150px;
+	top: -999px;
+	background: url('../images/menu_bg.png') no-repeat bottom left;
+}
+
+.body .navigation #nav li
+{
+	position: relative;
+	display: block;
+	margin: 0;
+	width: 130px;
+	padding: 1px 10px;
+}
+
+.body .navigation #nav li.top
+{
+	float: left;
+	margin: 0 -0.15em;
+	width: auto;
+	max-width: 125px;
+	padding: 0 0.75em;
+}
+
+.body .navigation #nav li.top:hover
+{
+	background-color: #6d83ad;
+}
+
+.body .navigation #nav li.right
+{
+	float: right;
+}
+
+.body .navigation #nav li a
+{
+	display: block;
+	line-height: 2em;
+	height: 2em;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+.body .navigation #nav li:hover ul,
+.body .navigation #nav li ul:hover
+{
+	top: 2em;
+	left: -1px;
+}
+
+.body .navigation #nav li:hover ul ul,
+.body .navigation #nav li ul:hover ul
+{
+	top: -999px;
+}
+
+.body .navigation #nav li li:hover ul,
+.body .navigation #nav li ul ul:hover
+{
+	left: 100%;
+	top: 0px;
+	margin-left: -1px;
+}
+
+.body .navigation #nav li li:hover,
+.body .navigation #nav ul li.separator
+{
+	background: url('../images/menu_bg.png') no-repeat top right;
+}
+
+.body .navigation #nav li ul li a
+{
+	height: 1.0em;
+	line-height: 0.95em;
+	white-space: nowrap;
+	text-transform: none;
+	padding: 4px 0;
+	cursor: pointer;
+}
+
+.body .navigation #nav li.parent:hover li a,
+.body .navigation #nav li.parent:hover li li a,
+.body .navigation #nav li.parent:hover li li li a
+{
+	color: #000000;
+}
+
+.body .navigation #nav li.parent li:hover a,
+.body .navigation #nav li.parent li li:hover a,
+.body .navigation #nav li.parent li li li:hover a,
+.body .navigation #nav li.parent li li li li:hover a,
+.body .navigation #nav li.parent li li li li li:hover a
+{
+	color: #ffffff;
+}
+
+.body .navigation #nav li ul li.separator
+{
+	padding: 0 10px;
+	margin: 2px 0;
+	height: 1px;
+	max-height: 1px;
+	overflow: hidden;
+}
+
+.body .navigation #nav li.logout,
+.body .navigation #nav li.link
+{
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 0;
+	margin: 0 0 0 0.35em;
+	height: 2em;
+	width: 16px;
+}
+
+.body .navigation #nav li.logout:hover,
+.body .navigation #nav li.link:hover
+{
+	background-color: transparent ! important;
+}
+
+.body .navigation #nav li.logout
+{
+	background-image: url('../images/nav_logout.png');
+}
+
+.body .navigation #nav li.link
+{
+	background-image: url('../images/nav_link.png');
+}

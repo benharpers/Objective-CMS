@@ -1,0 +1,77 @@
+.main.tabbed
+{
+	position: relative;
+	margin-top: 10px;
+	top: 4em;
+}
+
+.tabbed .tabs
+{
+	position: absolute;
+	top: -22px;
+	left: 0px;
+	height: 22px;
+	width: 688px;
+	padding: 0 4px;
+}
+
+.large .tabs
+{
+	width: 923px
+}
+
+.tab
+{
+	position: relative;
+	display: block;
+	float: left;
+	height: 22px;
+	padding: 0 0 0 12px;
+	overflow: hidden;
+	background: url('../images/tab_back_l.png') no-repeat bottom left;
+	text-transform: uppercase;
+}
+
+.tabbed .tabs .right
+{
+	float: right;
+}
+
+.tab div
+{
+	position: relative;
+	display: block;
+	padding: 0 12px 0 0;
+	height: 22px;
+	max-width: 140px;
+	background: url('../images/tab_back_r.png') no-repeat bottom right;
+}
+
+.tab div *
+{
+	position: relative;
+	display: block;
+	padding: 11px 4px;
+	height: 0;
+	line-height: 0;
+	background: url('../images/tab_back_bg.png') repeat-x bottom left;
+	color: #ffffff;
+}
+
+.tabs .front
+{
+	overflow: visible;
+	background-image: url('../images/tab_front_l.png');
+}
+
+.tab.front div
+{
+	background-image: url('../images/tab_front_r.png');
+	overflow: hidden;
+}
+
+.tab.front div *
+{
+	background-image: url('../images/tab_front_bg.png');
+	color: #202020;
+}

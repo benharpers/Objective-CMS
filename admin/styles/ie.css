@@ -1,0 +1,95 @@
+.container .contents,
+div.field div.title
+{
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.listing .contents .table .listing_content tr .date
+{
+	width: auto;
+}
+
+.tab
+{
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+.tab div
+{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.tab,
+.tab div,
+.tab div *
+{
+	background-image: none;
+}
+
+.tab div *
+{
+	background-color: #8fa8d5;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+.tabs .tab.front,
+.tabs .tab.front div
+{
+	background-image: none;
+}
+
+.tabs .tab.front div
+{
+	background-color: #dcebff;
+}
+
+.sidebar .container .contents h1
+{
+	width: 190px;
+	margin: 0 10px 10px 10px;
+}
+
+.button
+{
+	margin-bottom: 0.75em;
+}
+
+.button,
+.button a
+{
+	background-image: none;
+	background-color: transparent;
+}
+
+.button a
+{
+	background-color: #8fa8d5;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.body .navigation #nav
+{
+	background-color: #000000;
+}
+
+.body .navigation #nav li.top
+{
+	line-height: 2em;
+	height: 2em;
+}
+
+.container,
+.container .contents,
+.listing,
+.listing .contents,
+div.field,
+div.field div.title,
+.body .navigation #nav ul
+{
+	background-image: none;
+}

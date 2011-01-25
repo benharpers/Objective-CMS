@@ -1,0 +1,255 @@
+.listing
+{
+	position: relative;
+	display: block;
+	background: #a0b7dd url('../images/inside_box_br.png') no-repeat bottom right;
+	color: #505050;
+	margin: 0;
+	padding: 0;
+	max-width: 100%;
+}
+
+.listing .contents
+{
+	background: url('../images/inside_box_tr.png') no-repeat top right;
+}
+
+.listing .contents:before
+{
+	content: url('../images/inside_box_tl.png');
+	width: 6px;
+	height: 6px;
+}
+
+.listing .contents:after
+{
+	content: url('../images/inside_box_bl.png');
+	width: 6px;
+	height: 6px;
+}
+
+div.field div.content .listing
+{
+	padding-top: 6px;
+}
+
+div.field div.content .listing,
+div.field div.content .listing .contents
+{
+	background: none;
+}
+
+div.field div.content .listing .contents:before,
+div.field div.content .listing .contents:after
+{
+	display: none;
+}
+
+.listing .listing_content
+{
+	position: relative;
+	padding: 0;
+	margin: -6px 0 0 0;
+	width: 100%;
+}
+
+.listing .listing_content tr th
+{
+	border-bottom: 0.09em solid #6d83ad;
+}
+
+.listing .listing_content tr td,
+.listing .listing_content tr th
+{
+	padding: 0 0.75em;
+	height: 20px;
+	max-height: 20px;
+	line-height: 20px;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+
+.listing .listing_content tr th
+{
+	text-align: left;
+	color: #ffffff;
+}
+
+.listing .listing_content tr th + th
+{
+	border-left: 0.1em solid #6d83ad;
+	padding-left: 5px;
+}
+
+.locked .container .contents .page .listing .listing_content tr td,
+.listing .listing_content tr td
+{
+	background-color: #ffffff;
+}
+
+.locked .container .contents .page .listing .listing_content tr td + td,
+.listing .listing_content tr td + td
+{
+	border-left: 0.1em solid #f0f0f0;
+	padding-left: 5px;
+}
+
+.locked .container .contents .page .listing .table .listing_content tr.even td,
+.listing .listing_content tr.even td
+{
+	background-color: #ecf4ff;
+	border-left-color: #dce4ef;
+}
+
+.listing .listing_content tr.selected td,
+.listing .listing_content tr:hover td
+{
+	background-color: #bdd1ee;
+	border-left-color: #adc1de;
+	color: #303030;
+}
+
+.listing .listing_content tr td.icon,
+.listing .listing_content tr td.sort,
+.listing .listing_content tr td.actions
+{
+	border-left: none;
+}
+
+.listing .contents .table .listing_content tr td.icon
+{
+	padding: 2px 4px;
+	width: 16px;
+}
+
+.listing .contents .table .listing_content tr td.actions,
+.listing .contents .table .listing_content tr td + td.actions
+{
+	padding: 2px 3px 2px 1px;
+	width: 14px;
+}
+
+.listing .contents .table .listing_content tr td.sort,
+.listing .contents .table .listing_content tr td + td.sort
+{
+	padding: 2px 0;
+	width: 10px;
+}
+
+.listing .contents .table .listing_content tr .file_name
+{
+	width: 200px;
+}
+
+.field .listing .contents .table .listing_content tr .file_name
+{
+	width: 114px;
+}
+
+.listing .contents .table .listing_content tr .type
+{
+	width: 130px;
+}
+
+.listing .contents .table .listing_content tr .size
+{
+	width: 80px;
+}
+
+.listing .contents .table .listing_content tr .name
+{
+	min-width: 20%;
+}
+
+.listing .contents .table .listing_content tr .date
+{
+	width: 180px;
+	text-align: right;
+	padding-left: 10px;
+}
+
+.listing .contents .table .listing_content tr td.status,
+.listing .contents .table .listing_content tr td.sort,
+.listing .contents .table .listing_content tr td.edit
+{
+	overflow: visible;
+	white-space: nowrap;
+	margin: 0;
+	padding: 0 6px 0 0;
+	width: 16px;
+	height: 16px;
+}
+
+.listing .contents .table .listing_content tr td.status img,
+.listing .contents .table .listing_content tr td.sort img,
+.listing .contents .table .listing_content tr td.edit img
+{
+	width: 16px;
+	height: 16px;
+}
+
+.listing.paged
+{
+	margin-bottom: 5px;
+}
+
+.listing.paged div.page_links_container
+{
+	position: relative;
+	max-width: 100%;
+	width: 100%;
+	padding: 0 5px 0 5px;
+}
+
+.listing.paged ul.page_links
+{
+	position: absolute;
+	margin: -7px 0 -16px 0;
+	max-height: 17px;
+	overflow: hidden;
+}
+
+.listing.paged ul.page_links li
+{
+	float: left;
+	margin: 1px 3px 0 2px;
+	background: #a0a0a0 url('../images/inside_box_br.png') no-repeat bottom right;
+	cursor: pointer;
+	height: 16px;
+	max-height: 16px;
+	width: 32px;
+	max-width: 32px;
+}
+
+.listing.paged ul.page_links li div
+{
+	width: 20px;
+	max-width: 20px;
+	text-align: center;
+	font-size: xx-small;
+	padding: 8px 6px 8px 6px;
+	background: url('../images/inside_box_bl.png') no-repeat bottom left;
+	font-weight: 900;
+	color: #ffffff;
+	line-height: 0px;
+	height: 0px;
+	overflow: visible;
+}
+
+.listing.paged ul.page_links li.current
+{
+	background-color: #ffffff;
+	margin-top: 0px;
+	padding-top: 1px;
+}
+
+.listing.paged ul.page_links li.current div
+{
+	color: #000000;
+}
+
+.listing tr td.title img.enabled,
+.listing tr td.title img.disabled
+{
+	vertical-align: bottom;
+}
