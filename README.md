@@ -29,15 +29,6 @@ addressed:
 * Currently only functions in the root directory of a domain.
 
 
-RESOURCES
----------
-
-Objective CMS is hosted on github.com, for information and version control,
-please visit:
-
-http://www.objectivecms.com/
-
-
 INSTALLATION
 ------------
 
