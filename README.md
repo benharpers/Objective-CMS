@@ -54,16 +54,6 @@ Make sure there are .htaccess files in both the root directory and the admin.
 Some FTP clients and OS's do not show these files but they are part of the 
 distribution.
 
-
-ABOUT THE AUTHOR
-----------------
-
-Ben Harper is a web developer in Ventura County, CA. For more information,
-please see Ben Harper's Portfolio Website:
-
-http://benharpers.com/
-
-
 COPYRIGHT
 ---------
 
